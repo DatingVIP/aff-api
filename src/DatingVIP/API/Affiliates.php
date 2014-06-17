@@ -18,7 +18,7 @@ use DatingVIP\API\Response;
 
 class Affiliates
 {
-	const CMD_SEND_CLICK = 'affiliates.sendclick';
+    const CMD_SEND_CLICK = 'affiliates.sendclick';
 
 /**
  * Instance of DatingVIP\API\Client
@@ -62,12 +62,12 @@ class Affiliates
  * @access public
  * @return Response
  */
-	public function sendClick(array $data)
-	{
-		$data['_unique'] = 0;
+    public function sendClick(array $data)
+    {
+        $data['_unique'] = 0;
         $command = new Command (self::CMD_SEND_CLICK, $data);
         return $this->api->execute ($command);
-	}
+    }
 
 /**
  * Send unique click event
@@ -92,11 +92,11 @@ class Affiliates
  * @access public
  * @return Response
  */
-	public function sendClickUnique(array $data)
-	{
-		$data['_unique'] = 1;
+    public function sendClickUnique(array $data)
+    {
+        $data['_unique'] = 1;
         $command = new Command (self::CMD_SEND_CLICK, $data);
         return $this->api->execute ($command);
-	}
+    }
 
 }
