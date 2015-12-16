@@ -18,7 +18,7 @@ use DatingVIP\API\Response;
 
 class Affiliates
 {
-    const CMD_SEND_CLICK = 'affiliates.sendclick';
+    const CMD_SEND_CLICK = 'aff.sendclick';
 
 /**
  * Instance of DatingVIP\API\Client
