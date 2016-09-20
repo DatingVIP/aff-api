@@ -57,6 +57,8 @@ class Affiliates
  * - aff_src
  * - aff_adg
  * - HTTP_REFERER
+ * - ua (User-Agent string)
+ * - ip (Client IP Address)
  *
  * @param array $data
  * @access public
@@ -87,6 +89,8 @@ class Affiliates
  * - aff_src
  * - aff_adg
  * - HTTP_REFERER
+ * - ua (User-Agent string)
+ * - ip (Client IP Address)
  *
  * @param array $data
  * @access public
