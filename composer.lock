@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5d8104def5b7783a81cc959527332cef",
     "content-hash": "b5678f4eca6b59c95fa9a0cb1466a75c",
     "packages": [
         {
@@ -49,7 +48,7 @@
                 "api client",
                 "datingvip"
             ],
-            "time": "2016-06-25 11:15:15"
+            "time": "2016-06-25T11:15:15+00:00"
         },
         {
             "name": "datingvip/curl",
@@ -91,7 +90,7 @@
             "keywords": [
                 "curl"
             ],
-            "time": "2016-06-24 20:27:09"
+            "time": "2016-06-24T20:27:09+00:00"
         }
     ],
     "packages-dev": [],
